@@ -61,7 +61,7 @@ if __name__ == '__main__':
     machine = RandomForestRegressor(
         n_estimators=1000,
         criterion="squared_error",
-        max_depth=30,n_jobs=8,
+        max_depth=30,n_jobs=4,
         verbose=1 )
 
     ##
